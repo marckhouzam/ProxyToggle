@@ -9,7 +9,6 @@
 <em:creator>Marc Khouzam</em:creator>
 <em:description>Toggle usage of a network proxy</em:description>
 <em:homepageURL></em:homepageURL>
-<em:optionsURL>chrome://ProxyToggle/content/options.xul</em:optionsURL>
 
 <em:targetApplication>
 <description>
