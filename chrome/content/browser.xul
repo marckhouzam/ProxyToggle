@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://ProxyToggle/skin/skin.css" type="text/css"?> 
+<!DOCTYPE ProxyToggle SYSTEM "chrome://ProxyToggle/locale/translations.dtd">
+<overlay id="sample" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+		<script src="ProxyToggle.js" />
+		
+		<keyset>
+			<key id="proxy-toggle-run-key" modifiers="alt shift" key="P" oncommand="ProxyToggle.toggle()"/>
+		</keyset>
+		
+		<toolbarpalette id="BrowserToolbarPalette">
+			<toolbarbutton id="proxy-toggle-toolbar-button" label="Network Proxy Toggle" type="checkbox" tooltiptext="&runProxyToggle;" oncommand="ProxyToggle.toggle()"/>
+		</toolbarpalette>
+</overlay>
