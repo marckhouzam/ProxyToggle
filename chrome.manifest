@@ -1,0 +1,8 @@
+content     ProxyToggle    chrome/content/
+content     ProxyToggle    chrome/content/ contentaccessible=yes
+overlay chrome://browser/content/browser.xul chrome://ProxyToggle/content/browser.xul
+
+locale  ProxyToggle    en-US   locale/en-US/
+
+skin    ProxyToggle    classic/1.0 skin/
+style   chrome://global/content/customizeToolbar.xul    chrome://ProxyToggle/skin/skin.css
